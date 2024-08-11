@@ -13,7 +13,7 @@ function Products() {
     speed: 300,
   };
   return (
-    <div className="bg-[url('./assets/heroimage01.jpg')] opacity-85 w-full bg-cover py-32 px-5">
+    <div className="bg-[url('/assets/heroimage01.jpg')] opacity-85 w-full bg-cover py-32 px-5">
         <h2 className="text-center italic text-red-900 md:text-xl mb-10">Experience Convenience Like Never Before.</h2>
       <div className="container">
         <Slider {...settings}>
