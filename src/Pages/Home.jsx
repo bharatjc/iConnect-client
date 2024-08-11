@@ -5,7 +5,7 @@ import Products from "../Components/Products";
 
 function Home() {
   return (
-    <div className="bg-[url('./assets/homebg.webp')] w-full bg-cover">
+    <div className="bg-[url('/assets/homebg.webp')] w-full bg-cover">
       <Hero />
       <Products/>
       {/* <Receipe/> */}

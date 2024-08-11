@@ -34,7 +34,7 @@ function Login() {
   }
 
   return (
-    <div className="flex items-center bg-[url('./assets/iconnectlogin.jpeg')] h-[100vh] w-full bg-cover">
+    <div className="flex items-center bg-[url('/assets/iconnectlogin.jpeg')] h-[100vh] w-full bg-cover">
       <div className="container flex flex-col justify-center items-center w-[85%] md:w-1/3 px-5 py-8 bg-transparent text-[14px] text-white">
         <form
           onSubmit={handleSubmit}
