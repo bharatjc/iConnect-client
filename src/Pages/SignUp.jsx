@@ -54,7 +54,7 @@ function handleDetails(e){
       // console.log(res.data)
       navigate('/login')
     }).catch(err=>{
-      console.log(err?.response?.data?.errors)
+      console.log("Error", err)
     })
     navigate('/login')
   }
