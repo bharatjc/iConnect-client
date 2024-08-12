@@ -22,14 +22,14 @@ function Login() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // axios.post(`http://localhost:3000/api/login`, user)
-    // .then((res)=>{
-    //   toast("Logged in successfully!");
-    //   dispatch(userInfo(res.data))
-    // navigate("/");
-    // }).catch(err=>{
-    //   console.log(err?.response?.data?.errors)
-    // })
+    axios.post(`https://iconnect-server.onrender.com/api/login`, user)
+    .then((res)=>{
+      toast("Logged in successfully!");
+      dispatch(userInfo(res.data))
+    navigate("/");
+    }).catch(err=>{
+      console.log(err?.response?.data?.errors)
+    })
     navigate("/");
   }
 

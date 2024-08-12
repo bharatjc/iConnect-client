@@ -47,15 +47,15 @@ function handleDetails(e){
 
   function handleSubmit(e){
     e.preventDefault()
-    // console.log({details})
-    // axios.post(`http://localhost:3000/api/signup`, details)
-    // .then((res)=>{
-    //   toast("Signup successfully!")
-    //   // console.log(res.data)
-    //   navigate('/login')
-    // }).catch(err=>{
-    //   console.log(err?.response?.data?.errors)
-    // })
+    console.log({details})
+    axios.post(`https://iconnect-server.onrender.com/api/signup`, details)
+    .then((res)=>{
+      toast("Signup successfully!")
+      // console.log(res.data)
+      navigate('/login')
+    }).catch(err=>{
+      console.log(err?.response?.data?.errors)
+    })
     navigate('/login')
   }
 
