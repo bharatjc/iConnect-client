@@ -6,11 +6,11 @@ import { useSelector} from 'react-redux'
 
 function Header() {
  const [menu, setMenu] = useState(false)
- const reduxUser = useSelector(store=>{
-  return store.user.value
- }) 
+//  const reduxUser = useSelector(store=>{
+//   return store.user.value
+//  }) 
  
- console.log(reduxUser)
+//  console.log(reduxUser)
   return (
     <div className="h-[75px] w-full bg-zinc-950 opacity-90">
         <header>

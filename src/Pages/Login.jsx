@@ -30,7 +30,6 @@ function Login() {
     }).catch(err=>{
       console.log(err?.response?.data?.errors)
     })
-    navigate("/");
   }
 
   return (

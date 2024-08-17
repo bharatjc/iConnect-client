@@ -56,7 +56,6 @@ function handleDetails(e){
     }).catch(err=>{
       console.log("Error", err)
     })
-    navigate('/login')
   }
 
   return (
